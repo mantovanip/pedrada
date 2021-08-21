@@ -1,0 +1,307 @@
+/*essa é a tag para fazer comentarios*/
+
+body{
+	background-image: url(../CSS/fundo/ae.jpg);
+	background-position:top; background-position-y: 5%;
+	background-repeat:no-repeat;
+
+
+
+
+}
+
+#titulo
+{color:rgb(243, 253, 252);
+background-color:#0f3646;
+text-align: center;
+}
+/*identification*/
+
+#Frase
+{color:black;}
+ 
+/*classes*/
+
+.texto-verde
+{color:darkorange;}
+
+.frase01{color:darkorange;
+
+}
+/*centimetros*/
+
+#cm{
+	background-color:rgb(0, 140, 255);
+	width:1cm;
+	height:1cm;
+}
+
+
+/*milimetro*/
+#mm{
+	background-color:red;
+		width:10mm;
+	height: 10mm;
+}
+/*inches*/
+#in{
+	background-color:blue;
+	width:1cm;
+	height:1cm;
+}
+/*pixel*/
+#px{
+	background-color: red;
+	width:39px;
+	height:39px;
+}
+/*pontos*/
+#pt{
+	background-color: blue;
+	width:30pt;
+	height:30pt;
+}
+/*picas*/
+#pc{
+	background-color: red;
+	width:2.5pc;
+	height:2.5pc;
+}
+
+/*medidas de referência*/
+
+/*pixel*/
+.px{
+	background-color:firebrick;
+	width:39px; 
+	height: 39px;
+}
+/*em*/
+.em{
+	background-color:dodgerblue;
+	width:2.43em; 
+	height:2.43em;
+}
+/*viewport-width */
+.vw{
+	background-color:firebrick;
+	width:2.9vw; 
+	height:2.9vw;
+}
+/*viewport-height*/
+.vh{
+	background-color:dodgerblue;
+	width:6.6vh; 
+	height: 6.6vh;}
+
+/*viewport-minimun */
+ .vmin{
+	background-color:firebrick;
+	width:6.5vmin; 
+	height:6.5vmin;
+}
+/*viewport-maximun */
+.vmax{
+	background-color:dodgerblue;
+	width:2.9vmax; 
+	height:2.9vmax;
+}
+
+/*porcemtage, */
+
+.porc{
+	background-color:firebrick;
+	width:3.5%; 
+	height:0.1%;
+}
+
+#base{
+	background-color: dodgerblue;
+	height: 10px;
+}
+#container
+{background-color: firebrick;
+color: white;
+margin:10px;}
+
+#conteudo
+{background-color:dodgerblue;
+color: black;
+padding: 10px;
+}
+
+
+
+
+/*BORDAS
+
+
+
+>>>>exemplo para simplificar
+.BORDAS{
+	border:15px solid firebrick;
+}*/
+
+.bordas{
+
+border-width: 15px 10px 15px 10px;
+border-style: solid;
+border-color: firebrick black ;
+border-radius: 15px;
+}
+/*existe varios modelos de bordas*/
+
+.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	border-radius: 150px;
+}
+
+p{
+	color: red;
+	text-indent: 20px;
+	text-align: justify;
+	text-transform: capitalize;
+/*text-transform: uppercase;
+text-transform: lowercase;*/
+text-decoration: unset;letter-spacing: 1.5px;
+line-height: 3;
+word-spacing: 5px;
+	}
+	a{
+		text-decoration: none;
+	}
+	
+	#texto{
+		color: rgb(103, 88, 146);
+
+		font-family: helvetica, times, sans-serif;
+		font-style: italic;
+		font-variant:small-caps;
+		
+				
+		/*pode se usar numeral de 100 a 900 no lugar de "bold"
+		tbm pode depeder da familia de font q esta sendo usado*/
+
+	}
+
+.links{
+	font-family: 'Indie-Fslower', 'Arial Narrow', Arial, sans-serif; 
+	text-decoration: none;
+	text-shadow: 1px 0.7px rgb(8, 23, 31);
+	color:#bc2035;
+	/*background:#aaaa;*/
+	padding:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:15px;
+	border:5.5px solid #bc2035;
+	margin:10px;
+
+
+}
+	
+	.links {
+		background:#bc2035;
+		color:white;
+	}
+	
+	/*.links:visited{
+		color:red;
+
+	}*/
+
+
+.botoes{
+	text-decoration: none;
+	text-shadow: 0.7px 0.7px black;
+	color:#bc2035;	;
+	background:none;
+	padding:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:7px;
+	border:2.5px solid #bc2035;}
+
+	.botoes:active{
+		background:#bc2035;
+		color: white;
+	}
+
+	#overflow
+	{       color:rgb(33, 36, 36);
+		text-shadow: rgb(174, 206, 203) 0.7px 0.6px;
+		text-decoration: unset;letter-spacing: 0.5px;
+line-height: 1.5;
+			background-color:rgb(85, 133, 91);
+			width: 700px;
+			height: 100px;
+			overflow: auto;
+			margin-bottom: 15%;
+			margin-left: 10%;
+	}
+			
+			.vat{
+
+				text-decoration: none;
+				text-shadow: 0.7px 0.7px black;
+				color:grey;
+				background:none;
+				padding:10px;
+				padding-top:5px;
+				padding-bottom:5px;
+				border-radius:7px;
+				border:2.5px solid green;
+								bottom: 2%;
+					
+			}
+			.vat:active{
+				background: green;
+				color:grey;
+			}
+
+			
+			.alinhamento{
+				margin: auto;
+
+				width: 50px;
+				height: 50px;
+				background-color: green;
+				border:2.5px solid black;
+
+			}
+
+			.quadrado1{
+		
+				width: 100px;
+				height: 100px;
+				border: 1px solid rgb(156, 128, 128);
+				
+
+			}
+			.quadrado-red{
+				
+				background-color: red;
+			}
+			.quadrado-blue{
+				background-color: blue;
+				position: absolute;
+			right: 0px;
+			bottom: 0;
+			}
+			.quadrado-green{
+				background-color: green;
+			
+
+			}
+
+			 .quadro{
+				 position: relative;
+				 width: 700px;
+				 height: 400px;
+				 border:2px solid grey;
+			 }
+	/*.botoes:visited{
+	color:red;
+}*/
