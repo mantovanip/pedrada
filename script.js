@@ -154,14 +154,6 @@ console.log(numero);
 console.log(null)
 
 
-let tipoPedido = "entrega";
-let statusPagamento = "pago";
- 
-let situacaoEntrega =
-(tipoPedido === "entrega" && statusPagamento === "pago")
-  ? "Entrega liberada"
-  : "Entrega não liberada";
-console.log(situacaoEntrega);
 
 
 
@@ -186,3 +178,148 @@ else  {
   console.log("volte futuramente")
 
 }
+
+
+var idade= 18;
+
+idade >= 18 ? console.log("pode.") : console.log("não pode.");
+
+console.log(null);
+
+
+var nota1 = 7.0;
+
+var nota2 = 7.3;
+
+var media =( nota1 + nota2) / 2;
+
+var conceito = "";
+
+if (media >=8){
+
+    conceito = "Ótimo";
+}
+else if (media >= 6.5){
+
+  conceito = "Bom";
+}
+else 
+{
+
+conceito= "regular";
+}
+
+
+//esse caso abaixo seria mais para forçar o default que foi colocado, por n cria uma var com default para usar algo inferior a regular
+conceito = "Mais ou menos"
+///
+console.log(media + " " +conceito);
+
+
+
+switch(conceito){
+
+    case "Òtimo":
+      console.log("Párabens.");
+      break;
+
+    case "Bom":
+      console.log("Você está quase lá.");
+      break;
+
+    case "regular":
+      console.log("Estude mais.");
+      break;
+
+
+    default :
+
+    console.log("houve algum erro");
+    break;
+
+
+}
+
+
+
+/// alguns comandos de repetiçao conceitos for e while
+
+//for serve para repetir um certo numedo de coisa certas vezes 
+//TIPO DE LAÇO
+
+var numero = 5;
+
+for( var i = 0; i < numero; i++){
+
+console.log("executando o for, pela " + i + " vez")
+
+}
+
+console.log("acabou")
+
+
+
+//while
+
+
+var numero = Math.random() *100;
+
+//while(numero < 90){
+
+
+  //console.log(numero);
+ // numero = Math.random() *100;
+//roda ate chegar no 90..cuidar pq gera mt bug e pode entrar em loop infinito ATENTIO
+
+
+
+//ultimo numero
+//console.log(numero);
+//console.log("acabou");
+
+
+
+
+
+
+///arrays ou vetores
+//um conjuto de variaveis, sequencial, começa com indice 0, e o indice vai de 0 até o numero de elementos que tiver,com qualquer tipo de dados
+
+
+var alunos = new Array("paulo", "taize", "ayla", "barny","paulo",
+         "taize", "ayla", "barny");
+
+for (var i = 0; i < alunos.length; i++){
+
+  console.log(alunos[i])
+  console.log(i)
+}
+
+
+
+
+function média(n1, n2){
+
+  var nota1 = n1;
+  var nota2 = n2;
+  var média = (nota1 + nota2) /2;
+ //console.log(média);
+ return média;
+}
+
+
+
+
+var resultado1 = média(6, 7);
+var resultado2 = média(5, 5);
+
+console.log( resultado1 + " " + resultado2);
+
+
+
+function saudaçao(){
+
+  return"olá mundo"
+}
+var s = saudaçao();
+console.log(s);
