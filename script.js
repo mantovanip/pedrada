@@ -157,9 +157,9 @@ console.log(null)
 
 
 
-var nome = prompt( "oi, como é seu nome?");
+//var nome = prompt( "oi, como é seu nome?");
 
-alert("Seja bem vindo(a) " + nome + ", e isso é apenas um projeto.");
+//alert("Seja bem vindo(a) " + nome + ", e isso é apenas um projeto.");
 
 
 
@@ -323,3 +323,33 @@ function saudaçao(){
 }
 var s = saudaçao();
 console.log(s);
+//;;;;/////
+
+
+
+
+
+
+
+
+var nota1 = 7.0;
+
+var nota2 = 7.3;
+
+var media =( nota1 + nota2) / 2;
+
+var conceito = "";
+
+if (media >=8){
+
+    conceito = "Ótimo";
+}
+else if (media >= 6.5){
+
+  conceito = "Bom";
+}
+else 
+{
+
+conceito= "regular";
+}
