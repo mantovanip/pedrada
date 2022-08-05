@@ -2,8 +2,10 @@
 
 body{
 	background-image: url(../CSS/fundo/ae.jpg);
-	background-position:top; background-position-y: 5%;
+	background-position:top; 
+	background-position-y: 39%;
 	background-repeat:no-repeat;
+	
 
 
 
@@ -277,7 +279,7 @@ line-height: 1.5;
 				width: 100px;
 				height: 100px;
 				border: 1px solid rgb(156, 128, 128);
-				
+				display: grid;
 
 			}
 			.quadrado-red{
