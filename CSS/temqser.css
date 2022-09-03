@@ -307,7 +307,7 @@ line-height: 1.5;
 
 			 .footer{
 				height: 150px;
-				background: linear-gradient(to left bottom ,rgb(23, 83, 113),rgb(81, 184, 182), rgb(169, 169, 186));
+				background: linear-gradient(to bottom ,rgb(23, 83, 113),rgb(81, 184, 182), rgb(169, 169, 186));
 			 }
 	/*.botoes:visited{
 	color:red;
