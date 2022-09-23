@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Page</title>
+
+    <script>
+
+        function sortear() {
+
+            let np = 100;
+
+            let ns = Math.round(Math.random() * np);
+
+            document.getElementById("d").innerHTML = ns
+        }
+
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 80px;
+            text-align: center;
+            
+        }
+
+        #btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-decoration: none;
+            text-shadow: 0.7px 0.7px black;
+            color: #35252f;
+            background:scroll;
+            padding: 90px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 70px;
+            border: 10.5px solid #412b2e;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        body {
+            background-color: rgb(188, 193, 186);
+        }
+
+        #d {
+            background-color: #388f45;
+            color: #262b27;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Página para Sorteio </h1>
+
+
+    <button id="btn" onclick="sortear()">SORTEAR</button>
+    <br>
+    <h1 id="d"></h1>
+</body>
+
+</html>

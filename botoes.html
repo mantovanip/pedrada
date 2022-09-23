@@ -4,13 +4,40 @@
 	<title>Botões</title>
 	<meta charset="utf-8">
 	<link href="CSS/temqser.css" rel="stylesheet">
+<script>
+
+	onload = function()
+	{
+		let nome = localStorage.getItem("nome");
+		let h1 	 = document.getElementById("nome");
+		h1.innerHTML = nome
+	}
+
+	function atualizar(element){
+
+		let valor = element.value;
+		console.log(valor)
+		localStorage.setItem("nome", valor);
+	}
+
+// localStorage.setItem(); 
+// localStorage.getItem();
+// localStorage.clear();
+
+// JSON.stringify()	
+// JSON.parse()  ele transforma todo objeto em js
+
+</script>
+
+
+
+
 </head>
 <body><br>
 	<br><h1>Ditos de Albert Einsten</h1>
 	<br>
-
-		<br>													<a class="botoes" href="index.html"> Voltar </a>
-
-
+	<a class="botoes" href="index.html"> Voltar </a>
+	<h1 id="nome" ></h1>
+	<input type="text" oninput="atualizar(this)" >
 </body>
 </html>
