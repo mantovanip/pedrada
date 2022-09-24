@@ -336,6 +336,6 @@ a {
 	background: linear-gradient(to bottom, rgb(23, 83, 113), rgb(81, 184, 182), rgb(169, 169, 186));
 }
 
-/*.botoes:visited{
+.botoes:visited{
 	color:red;
-}*/
+}
