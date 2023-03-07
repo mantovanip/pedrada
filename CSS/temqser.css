@@ -3,13 +3,18 @@
 body {
 	background-image: url(../CSS/fundo/ae.jpg);
 	background-position: top;
-	background-position-y: 39%;
+	background-position-y: 3.5%;
 	background-repeat: no-repeat;
+	background-color: #e3defd;
+	padding: 0;
+	margin: 0;
 
-
-
-
-
+}
+.ae{
+	transform: translate(30%,-1250%);	
+	background-repeat: no-repeat;
+	margin-left:70%;
+	width:150px;
 }
 
 #titulo {
