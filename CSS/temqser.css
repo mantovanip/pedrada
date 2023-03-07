@@ -151,14 +151,14 @@ body {
 
 
 
-/*BORDAS
+BORDAS
 
 
 
->>>>exemplo para simplificar
+
 .BORDAS{
 	border:15px solid firebrick;
-}*/
+} 
 
 .bordas {
 
@@ -228,10 +228,10 @@ a {
 	color: white;
 }
 
-/*.links:visited{
+.links:visited{
 		color:red;
 
-	}*/
+	}
 
 
 .botoes {
